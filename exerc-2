@@ -1,0 +1,6 @@
+2.- estaticas dentro del programa, dinamicas se crearon durante la ejecucion
+Funciones de acceso para variables:
+(setq var1 form1 var2 form2. . .)
+ -> forms: son evaluadas y el resultado es almacenado enlas variables vars 
+ -> vars: no son evaluadas 
+ -> etq: devuelve el último valor asignado

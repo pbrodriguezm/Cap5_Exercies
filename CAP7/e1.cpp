@@ -21,4 +21,5 @@ int main()
 /*****
 **(rpt1) (izq -> der) sum1 es 46 y sum2 es 48
 **(rpt2) (der -> izq) sum1 es 48 y sum2 es 46
+
 **/

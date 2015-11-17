@@ -1,6 +1,3 @@
-#include <iostream>
-
-using namespace std;
 
 //*1.- Run the code given in Problem 13 (in the Problem Set) on some system that supports C to determine the values of sum1 and sum2. Explain the results.
 int fun (int *k){
@@ -14,7 +11,6 @@ int main()
     sum1= (i / 2) + fun( &i );
     sum2 = fun ( &j ) + (j / 2);
     
-    cout << "Hello world!->" << sum1<<endl;
     return 0;
 }
 

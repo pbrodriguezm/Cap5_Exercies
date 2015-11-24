@@ -1,0 +1,12 @@
+(define count
+  (lambda (lst)
+    (cond ((null? lst) 0)
+          ((= 0 (car lst)) (+ 1 (count (cdr lst))))
+          (else (+ 0 (count (cdr lst))))
+    )      
+  )
+)
+
+/******   (count '(1 2 0 5))
+/******   => 1
+   

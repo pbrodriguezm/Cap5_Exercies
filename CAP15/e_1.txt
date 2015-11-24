@@ -1,0 +1,10 @@
+(define pi 3.14159)
+(define (sphere_volume radius)
+ (*(/ 4 3)pi 
+  (expt radius 3)))
+  
+  
+  /**********#<Closure>
+  /**********(sphere_volume 15)
+  /**********=> 14137.154999999999
+   

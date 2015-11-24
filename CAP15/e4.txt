@@ -1,0 +1,6 @@
+(define (potencia A B)
+  (expt A B))
+  
+  /***   (potencia 2 3)
+  /***    => 8
+   
